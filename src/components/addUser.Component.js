@@ -36,7 +36,7 @@ const AddUserComponent = ({ navigation }) => {
             }
         })
 
-        navigation.navigate('Home');
+        navigation.push('Home');
 
         alert('Add User Success');
     }
